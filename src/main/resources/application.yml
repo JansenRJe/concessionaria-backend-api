@@ -1,0 +1,14 @@
+server:
+  port: 8081
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+       dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  datasource:
+      url: jdbc:mysql://localhost:3308/concessionaria_java
+      password:
+      username: root
